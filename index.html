@@ -3,35 +3,78 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Lurra</title>
-<meta name="description" content="Lurra hace gratis el informe de una finca rústica con datos públicos: Catastro, SIGPAC, zonas inundables, espacios protegidos y satélite.">
+<title>Lurra · Informe gratis de una finca rústica</title>
+<meta name="description" content="Lurra prepara gratis el informe de una finca rústica con datos públicos: Catastro, SIGPAC, zonas inundables, Red Natura 2000, relieve y satélite. En 43 idiomas.">
 <link rel="canonical" href="https://igoitz13.github.io/">
 <meta property="og:site_name" content="Lurra">
-<meta property="og:title" content="Lurra">
+<meta property="og:title" content="Lurra · Informe gratis de una finca rústica">
+<meta property="og:description" content="Escribe la referencia catastral o señala la parcela en el mapa y Lurra prepara el informe con datos públicos.">
 <meta property="og:url" content="https://igoitz13.github.io/">
+<meta property="og:image" content="https://igoitz13.github.io/lurra/img/compartir.jpg">
 <link rel="icon" href="/favicon.ico" sizes="48x48">
 <link rel="icon" href="/lurra/img/icono.svg" type="image/svg+xml">
 <link rel="icon" href="/lurra/img/icono-48.png" type="image/png" sizes="48x48">
 <link rel="icon" href="/lurra/img/icono-96.png" type="image/png" sizes="96x96">
 <link rel="icon" href="/lurra/img/icono-192.png" type="image/png" sizes="192x192">
 <link rel="apple-touch-icon" href="/lurra/img/icono-180.png">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Lurra","alternateName":["Lurra, informe de fincas rústicas","Lurra informe finca"],"url":"https://igoitz13.github.io/"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Lurra","alternateName":["Lurra, informe de fincas rústicas","Lurra informe finca"],"url":"https://igoitz13.github.io/","inLanguage":"es"}</script>
 <style>
-:root{--tinta:#1a1a17;--suave:#5c5a52;--acento:#c8321e;--fondo:#fff}
-body{font-family:system-ui,sans-serif;margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;color:var(--tinta);background:var(--fondo);padding:0 16px}
-main{max-width:34rem}
-img{width:72px;height:72px}
-h1{font-size:2.2rem;margin:.6rem 0 .4rem}
-p{color:var(--suave);line-height:1.5;margin:0 0 1.6rem}
+:root{--tinta:#1a1a17;--suave:#5c5a52;--acento:#c8321e;--fondo:#fff;--linea:#e6e3da}
+*{box-sizing:border-box}
+body{font-family:system-ui,sans-serif;margin:0;color:var(--tinta);background:var(--fondo);line-height:1.55}
+main{max-width:44rem;margin:0 auto;padding:3rem 16px}
+header{text-align:center;margin-bottom:2.2rem}
+header img{width:72px;height:72px}
+h1{font-size:2.2rem;margin:.5rem 0 .3rem}
+.lema{color:var(--suave);margin:0 0 1.4rem;font-size:1.1rem}
+a{color:var(--acento)}
 a.boton{display:inline-block;background:var(--acento);color:#fff;text-decoration:none;font-weight:600;padding:.8rem 1.6rem;border-radius:8px}
+h2{font-size:1.2rem;margin:2rem 0 .6rem;border-top:1px solid var(--linea);padding-top:1.4rem}
+ul{padding-left:1.2rem;margin:.4rem 0}
+li{margin:.25rem 0}
+p{margin:.5rem 0}
+.idiomas a{margin-right:.6rem;white-space:nowrap}
+footer{color:var(--suave);font-size:.9rem;margin-top:2.4rem;border-top:1px solid var(--linea);padding-top:1rem}
+@media (prefers-color-scheme:dark){:root{--tinta:#ece9e1;--suave:#b3afa4;--acento:#ff7a5c;--fondo:#16150f;--linea:#2f2d26}}
 </style>
 </head>
 <body>
 <main>
+<header>
 <img src="/lurra/img/icono.svg" alt="">
 <h1>Lurra</h1>
-<p>Informe gratis de una finca rústica con datos públicos: Catastro, SIGPAC, zonas inundables, espacios protegidos y satélite.</p>
+<p class="lema">Informe gratis de una finca rústica con datos públicos.</p>
 <a class="boton" href="/lurra/">Abrir Lurra</a>
+</header>
+
+<p>Lurra es una web gratuita para quien va a comprar, heredar o arrendar una finca rústica. Escribe la referencia catastral, busca por polígono y parcela o señala la parcela en el mapa, y Lurra prepara un informe con lo que dicen los datos públicos sobre ella. No hace falta registrarse y Lurra no guarda nada de lo que consultas.</p>
+
+<h2>Qué incluye el informe</h2>
+<ul>
+<li>Superficie, uso y cultivos según el Catastro, también en Álava, Bizkaia, Gipuzkoa y Navarra.</li>
+<li>Uso del suelo de cada recinto del SIGPAC.</li>
+<li>Zonas inundables a 10, 100 y 500 años (SNCZI).</li>
+<li>Espacios protegidos de la Red Natura 2000.</li>
+<li>Altitud, pendiente y orientación con el modelo del terreno de 5 m del IGN.</li>
+<li>Historia de la vegetación con imágenes del satélite Sentinel-2.</li>
+</ul>
+
+<h2>Guías</h2>
+<ul>
+<li><a href="/lurra/guia/comprar-finca-rustica.html">Qué comprobar antes de comprar una finca rústica</a></li>
+<li><a href="/lurra/guia/sigpac.html">Qué es el SIGPAC y cómo consultar una parcela</a></li>
+<li><a href="/lurra/guia/referencia-catastral.html">Cómo encontrar la referencia catastral</a></li>
+<li><a href="/lurra/guia/finca-inundable.html">Cómo saber si una finca rústica es inundable</a></li>
+<li><a href="/lurra/guia/construir-en-suelo-rustico.html">¿Se puede construir en una finca rústica?</a></li>
+<li><a href="/lurra/guia/">Todas las guías</a></li>
+</ul>
+
+<h2>En otros idiomas</h2>
+<p class="idiomas"><a href="/lurra/eu.html" hreflang="eu">Euskara</a> <a href="/lurra/ca.html" hreflang="ca">Català</a> <a href="/lurra/gl.html" hreflang="gl">Galego</a> <a href="/lurra/en/" hreflang="en">English</a> <a href="/lurra/fr.html" hreflang="fr">Français</a> <a href="/lurra/de.html" hreflang="de">Deutsch</a> <a href="/lurra/pt.html" hreflang="pt">Português</a> <a href="/lurra/it.html" hreflang="it">Italiano</a> <a href="/lurra/nl.html" hreflang="nl">Nederlands</a> <a href="/lurra/">y 34 más</a></p>
+
+<footer>
+<p>Lurra elabora informes informativos y no vinculantes con datos públicos del Catastro, el FEGA, el MITECO, el IGN y Copernicus. <a href="/lurra/aviso-legal.html">Aviso legal</a> · <a href="/lurra/privacidad.html">Privacidad</a></p>
+</footer>
 </main>
 </body>
 </html>
